@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative; /* Permite que o rodapé seja posicionado relativamente ao corpo */
+    min-height: 100vh; /* Altura mínima de 100% da viewport */
+}
+
+header {
+  background-color: #2e52b4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#cadastrar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+}
+
+#cadastrar:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta um pouco o tamanho do botão */
+}
+
+.botao {
+  display: inline-block; /* Faz com que o elemento se comporte como um bloco, permitindo definir largura e altura */
+  padding: 10px 20px; /* Define o espaçamento interno do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  text-decoration: none; /* Remove o sublinhado padrão de links */
+  border: none; /* Remove a borda padrão de links */
+  border-radius: 5px; /* Define bordas arredondadas */
+  cursor: pointer; /* Define o cursor como uma mãozinha ao passar por cima do botão */
+}
+
+.botao:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
